@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>音樂樂</title>
+  <style></style>
+</head>
+<body>
+  <h1>破冰遊戲音樂控制</h1>
+  <p>設定音樂隨機播放長度：</p>
+  <input type="number" id="minTime" value="30"> ~
+  <input type="number" id="maxTime" value="90"> 秒
+  <div class="controls">
+    <button id="startGame">🎵 遊戲開始</button>
+    <button id="continueGame" disabled>▶ 遊戲繼續</button>
+  </div>
+  <audio id="music" src="music.mp3"></audio>
+  <canvas id="visualizer"></canvas>
+</body>
+
+<script src="main.js"></script>
+
+</html>

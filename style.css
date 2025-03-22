@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: white;
+}
+.controls {
+  margin-top: 20px;
+}
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: black;
+}
+input {
+  width: 60px;
+}
